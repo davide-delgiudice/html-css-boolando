@@ -5,15 +5,10 @@
 }
 
 header{
-    background-color: orange;
+    background-color: rgb(255, 102, 0);
     color: white;
     padding: 20px 0px;
-    width: 100%;
-}
-
-.container{
-    max-width: 75%;
-    margin: 0 auto;
+    display: flex;
 }
 
 .left.col{
@@ -26,4 +21,32 @@ header{
 
 .right-col{
     width: 30%;
+}
+
+li{
+    list-style: none;
+}
+
+/* utility */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.width-50{
+    width: 150px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
 }
