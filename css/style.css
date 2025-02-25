@@ -56,12 +56,12 @@ i{
     padding: 10px;
 }
 
-.img-text{
-    font-size: 15px;
+.label-heart:hover{
+    color: red;
 }
 
-.overlay:hover{
-    
+.img-text{
+    font-size: 15px;
 }
 
 /* fine main */
