@@ -60,6 +60,17 @@ i{
     color: red;
 }
 
+.hover-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.card:hover .hover-img{
+    opacity: 1;
+}
+
 .img-text{
     font-size: 15px;
 }
