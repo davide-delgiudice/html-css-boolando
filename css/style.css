@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: orange;
+    color: white;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.left.col{
+    width: 30%;
+}
+
+.center-col{
+    width: 30%;
+}
+
+.right-col{
+    width: 30%;
+}
