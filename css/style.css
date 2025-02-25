@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+main{
+    padding-top: 100px;
+}
+
 header{
     background-color: rgb(255, 102, 0);
     color: white;
-    position: sticky;
-    top: 0;
+    position:fixed;
+    padding: 20px;
+    width: 100%;
 }
 
 li{
@@ -41,11 +46,15 @@ li{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .display-flex{
     display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 .width-50{
