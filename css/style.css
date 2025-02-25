@@ -136,10 +136,6 @@ i{
     justify-content: space-between;
 }
 
-.font-bold{
-    font-weight: bold;
-}
-
 .text-center{
     text-align: center;
 }
@@ -150,6 +146,10 @@ i{
 
 .font-line{
     text-decoration: line-through;
+}
+
+.font-bold{
+    font-weight: bold;
 }
 
 .width-50{
