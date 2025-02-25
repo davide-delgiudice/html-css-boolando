@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 main{
     padding-top: 100px;
 }
@@ -14,15 +16,51 @@ header{
     position:fixed;
     padding: 20px;
     width: 100%;
+    z-index: 1;
 }
 
 li{
     list-style: none;
 }
 
+/* fine header */
+
+/* main */
+
+.card{
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.label{
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.label-heart{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+}
+
+.img-text{
+    font-size: 15px;
+}
+
+/* fine main */
+
 /* columns */
 
-.left.col{
+.left-col{
     width: 25%;
 }
 
@@ -43,7 +81,7 @@ li{
 /* utility */
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -53,12 +91,16 @@ li{
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .justify-between{
     justify-content: space-between;
 }
 
-.width-50{
-    width: 150px;
+.font-bold{
+    font-weight: bold;
 }
 
 .text-center{
@@ -69,24 +111,29 @@ li{
     text-align: right;
 }
 
-.h-800{
-    height: 800px;
+.font-line{
+    text-decoration: line-through;
 }
 
-.h-300{
-    height: 300px;
+.width-50{
+    width: 150px;
 }
 
-.bg-grey{
-    background-color: grey;
+.position-left{
+    left: 60px;
+}
+
+.color-red{
+    color: red;
 }
 
 .bg-red{
     background-color: red;
+
 }
 
-.border-black{
-    border: 1px solid black;
+.bg-green{
+    background-color: green;
 }
 
 /* fine utility */
